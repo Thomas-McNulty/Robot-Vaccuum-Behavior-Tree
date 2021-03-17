@@ -1,0 +1,14 @@
+COMP131 Assignemnt 1: Behavioral Tree
+Author: Thomas McNulty
+
+This is my implementation of a behavioral tree. It is ran by running tree.py 
+(python3 tree.py) in terminal. It requests user input for the starting blackboard
+conditions and properties of the behavioral tree and then runs as many evaluations as
+the user requests. It continues requesting the user until 0 cycles are requested. 
+
+Each node requires a name. Running status is interprited as having the nodes name
+in the blackboard, therefore names should be unique for each node. 
+
+To test the program, alterations can be made to running times, delays, failure percentages,
+and other available node parameters. Additionally, small scale trees can be created and ran
+in tree.py by swapping the initial node for a new initial node (inside if __name__ == "__main__").
